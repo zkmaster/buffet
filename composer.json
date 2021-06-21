@@ -1,0 +1,27 @@
+{
+    "name": "buffet/framework",
+    "authors": [
+        {
+            "name": "zhangkuan",
+            "email": "kuan.zhang@yintech.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.1",
+        "symfony/var-dumper": "~4",
+        "lulanyin/db": "^1.01",
+        "ext-http": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "helper/function.php"
+        ]
+    },
+    "description": ""
+}
