@@ -13,4 +13,9 @@ class TestController extends Controller
     {
         // TODO
     }
+
+    public function test2()
+    {
+        echo __METHOD__ . PHP_EOL;
+    }
 }
