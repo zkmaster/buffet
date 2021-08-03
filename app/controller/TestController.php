@@ -8,4 +8,9 @@ class TestController extends Controller
     {
         dd(__METHOD__);
     }
+
+    public function test1()
+    {
+        // TODO
+    }
 }
